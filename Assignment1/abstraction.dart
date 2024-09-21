@@ -33,7 +33,7 @@ abstract class Vehicle {
   String name;
   int modelNumber;
   String licencePlate;
-  var rented;
+  bool rented = false;
 
   Vehicle(this.name, this.modelNumber, this.licencePlate);
 
